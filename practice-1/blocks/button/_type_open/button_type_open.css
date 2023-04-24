@@ -1,0 +1,11 @@
+.button_type_open {
+  border: 1px solid #E5266E;
+  border-radius: 4px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #E5266E; 
+  background-color: #FFFFFF;
+}

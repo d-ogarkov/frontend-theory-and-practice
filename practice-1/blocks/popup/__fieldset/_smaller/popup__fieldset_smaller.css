@@ -1,0 +1,9 @@
+.popup__fieldset_smaller {
+  width: 362px;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__fieldset_smaller {
+    width: 100%;
+  }
+}

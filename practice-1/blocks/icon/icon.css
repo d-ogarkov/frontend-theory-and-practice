@@ -1,0 +1,10 @@
+.icon {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 19px;
+  right: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}

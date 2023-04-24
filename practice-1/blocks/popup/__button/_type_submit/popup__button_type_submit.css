@@ -1,0 +1,16 @@
+.popup__button_type_submit {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  min-height: 48px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #FFFFFF;
+  background: #E5266E;
+}

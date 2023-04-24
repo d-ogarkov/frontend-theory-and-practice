@@ -1,0 +1,16 @@
+.button {
+  margin: 0;
+  padding: 14px 38px;
+  min-height: 48px;
+  border: none;
+  background-color: inherit;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: #0C1014 solid 1px;
+}

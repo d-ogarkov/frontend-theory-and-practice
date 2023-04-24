@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Стать партнёром проекта</title>
+</head>
+<body class="page">
+  <main class="content">
+    <button class="button button_type_open" type="button">Открыть форму</button>
+  </main>
+
+  <div class="popup">
+    <div class="popup__container">
+      <form class="popup__form" action="/" method="post" name="application-form">
+        <h2 class="popup__title">Стать партнёром проекта</h2>
+        <div class="popup__columns">
+          <fieldset class="popup__fieldset popup__fieldset_smaller">
+            <div class="popup__field">
+              <label class="popup__label" for="input-organization"><span class="popup__accent">✱</span> Название организации</label>
+              <input class="popup__input popup__input_type_hinted" type="text" id="input-organization" name="organization" placeholder="" required minlength="2" maxlength="100">
+            </div>
+            <div class="popup__field">
+              <label class="popup__label"><span class="popup__accent">✱</span> Телефон</label>
+              <input class="popup__input popup__input_type_hinted" type="tel" id="input-phone" name="phone" placeholder="" required minlength="7" maxlength="13" pattern="(\+?\d[- .]*){7,13}">
+            </div>
+            <div class="popup__field">
+              <label class="popup__label"><span class="popup__accent">✱</span> Email</label>
+              <input class="popup__input popup__input_type_hinted" type="email" id="input-email" name="email" placeholder="" required minlength="2" maxlength="50">
+            </div>
+          </fieldset>
+          <fieldset class="popup__fieldset">
+            <div class="popup__field popup__field_type_image">
+              <label class="popup__label popup__label_type_big"><span class="popup__accent">✱</span> Логотип (jpeg, png)</label>
+              <div class="logo">
+                <button class="logo__delete" type="button"></button>
+                <div class="logo__icon"></div>
+                <div class="logo__text">Выберите файл</div>
+              </div>
+              <input class="popup__input popup__input_type_hinted popup__input_type_image" type="file" id="input-logo" name="logo" placeholder="" required minlength="2" maxlength="50">
+            </div>
+          </fieldset>
+        </div>
+        <fieldset class="popup__fieldset">
+          <div class="popup__field">
+            <label class="popup__label"><span class="popup__accent">✱</span> Направление</label>
+            <i class="icon icon_type_select"></i>
+            <select class="popup__select popup__select_type_hinted" id="input-field" name="field" required>
+              <option>Экология</option>
+              <option>Кибернетика</option>
+              <option>Антропология</option>
+            </select>
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_global"></i>
+            <input class="popup__input popup__input_type_iconized" type="url" id="input-web-url" name="web-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_vk"></i>
+            <input class="popup__input popup__input_type_iconized" type="url" id="input-vk-url" name="vk-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_ok"></i>
+            <input class="popup__input" type="url" id="input-ok-url" name="ok-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_facebook"></i>
+            <input class="popup__input popup__input_type_iconized" type="url" id="input-facebook-url" name="facebook-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_instagram"></i>
+            <input class="popup__input popup__input_type_iconized" type="url" id="input-instagram-url" name="instagram-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <i class="icon icon_type_youtube"></i>
+            <input class="popup__input popup__input_type_iconized" type="url" id="input-youtube-url" name="youtube-url" placeholder="" minlength="2" maxlength="200">
+          </div>
+          <div class="popup__field">
+            <label class="popup__label">Руководитель</label>
+            <input class="popup__input popup__input_type_hinted" type="text" id="input-director" name="director" placeholder="" minlength="2" maxlength="100">
+          </div>
+        </fieldset>
+        <div class="popup__buttons">
+          <button class="popup__button popup__button_type_submit popup__button_disabled" type="submit">Стать партнёром проекта</button>
+          <button class="popup__button popup__button_type_cancel" type="button">Отменить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

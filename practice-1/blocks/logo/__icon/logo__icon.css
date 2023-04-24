@@ -1,0 +1,10 @@
+.logo__icon {
+  position: absolute;
+  top: 40px;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  background-image: url('../../../images/file.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

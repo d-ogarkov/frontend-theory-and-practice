@@ -1,0 +1,12 @@
+.popup__label {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translate(16px, 8px);
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #6A6E72;
+}

@@ -1,0 +1,12 @@
+/* Шрифты Montserrat и PT Sans берем с Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans&display=swap');
+
+/* Google Fonts не дает Lato с font-weight: 600, поэтому используем файлы с официального сайта */
+@font-face {
+  font-family: 'Lato';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Lato/Lato-Semibold.woff2") format("woff2"),
+       url("../fonts/Lato/Lato-Semibold.woff") format("woff");
+}

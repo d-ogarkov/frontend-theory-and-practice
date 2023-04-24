@@ -1,0 +1,12 @@
+.popup__button_type_cancel {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0848C0;
+  background-color: inherit;
+}

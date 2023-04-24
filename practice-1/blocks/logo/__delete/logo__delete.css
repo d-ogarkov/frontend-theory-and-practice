@@ -1,0 +1,14 @@
+.logo__delete {
+  position: absolute;
+  top: 9px;
+  right: 2px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  background-image: url('../../../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
