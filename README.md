@@ -2,10 +2,10 @@
 
 ## Часть 1 (теория)
 
-* [theory](./theory/theory.md). Что выводит код и варианты модификации кода.
+1. [Что выводит код и варианты модификации кода](https://d-ogarkov.github.io/frontend-theory-and-practice/theory/theory.md)
 
 ## Часть 2 (практика)
 
-* [practice-1](./practice-1/index.html). Модальное окно, верстка по макету в Figma
-* [practice-2](./practice-2/index.html). Запрос данных и вывод в таблицу
-* [practice-3](./practice-3/index.html). Запрос данных, вывод в таблицу, динамическая сортировка и фильтрация
+1. [Модальное окно, верстка по макету в Figma](https://d-ogarkov.github.io/frontend-theory-and-practice/practice-1/index.html). 
+2. [Запрос данных и вывод в таблицу](https://d-ogarkov.github.io/frontend-theory-and-practice/practice-2/index.html)
+3. [Запрос данных, вывод в таблицу, динамическая сортировка и фильтрация](https://d-ogarkov.github.io/frontend-theory-and-practice/practice-3/index.html)
