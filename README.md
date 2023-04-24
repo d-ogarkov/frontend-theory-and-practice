@@ -2,7 +2,7 @@
 
 ## Часть 1 (теория)
 
-1. [Что выводит код и варианты модификации кода](https://d-ogarkov.github.io/frontend-theory-and-practice/theory/theory.html)
+1. [Что выводит код и варианты модификации кода](/theory/theory.md)
 
 ## Часть 2 (практика)
 
