@@ -11,7 +11,6 @@ class Table {
 
     // Здесь не используем insertCell, потому что она вставляет только td, а нам нужно th
     Object.keys(element).forEach((key) => {
-      //rowHeader.insertCell().innerText = key;
       let th = document.createElement('th');
       th.innerHTML = key;
       rowHeader.appendChild(th);
