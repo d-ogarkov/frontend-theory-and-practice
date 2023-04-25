@@ -2,7 +2,7 @@
 
 ## Что выводит данный код?
 
-```
+```javascript
 const arr = [10, 12, 15, 21];
 
 for (var i = 0; i < arr.length; i++) {
@@ -31,7 +31,7 @@ Bad: undefined
 
 Заменить `var` на `let`:
 
-```
+```javascript
 for (let i = 0; i < arr.length; i++) {
   // ...
 }
@@ -41,7 +41,7 @@ for (let i = 0; i < arr.length; i++) {
 
 Вынести установку задержки в отдельную функцию и передавать ей индекс в цикле, чтобы получить нужное нам замыкание:
 
-```
+```javascript
 const arr = [10, 12, 15, 21];
 
 const postpone = (j) => {
